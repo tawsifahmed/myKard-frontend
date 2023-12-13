@@ -19,7 +19,6 @@ export default defineNuxtConfig({
           name: "description",
           content: "",
         },
-        // add more meta tags here
         { name: "theme-color", content: "#ffffff" }
       ],
     },

@@ -12,7 +12,6 @@
 const url = useRuntimeConfig()
 const myKards = ref(null)
 
-
 const getMyCards = async () => {
  const { data } = await useFetch(`${url.public.apiUrl}/my-Kards`, {
       method: 'GET',
