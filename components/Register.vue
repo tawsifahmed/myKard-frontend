@@ -1,5 +1,5 @@
 <template>
-    <div v-if="isVisible" class="flex justify-center items-center w-full h-screen inset-0 fixed bg-[#201e1e70]">
+    <div class="flex justify-center items-center w-full h-screen inset-0 fixed bg-[#201e1e70]">
         <div class="shadow-md rounded-lg xl:w-2/6 lg:w-[50%] md:w-[75%] w-[90%] bg-white relative">
 
             <!-- close button -->
@@ -20,11 +20,10 @@
 </template>
 
 <script setup>
-const isVisible = ref(true);
 
-const closeModal = () => {
-  isVisible.value = false;
-};
+const {closeModal} = defineProps(['closeModal'])
+
+
 
 </script>
 

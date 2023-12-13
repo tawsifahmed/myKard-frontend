@@ -19,10 +19,18 @@ export default defineNuxtConfig({
           name: "description",
           content: "",
         },
-        // add more meta tags here
         { name: "theme-color", content: "#ffffff" }
       ],
     },
+  },
+  modules: [
+    '@pinia/nuxt',
+  ],
+  pinia: {
+    storesDirs: ['./stores/**'],
+  },
+  imports: {
+    dirs: ["./stores"],
   },
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
