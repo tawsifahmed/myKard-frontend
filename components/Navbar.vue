@@ -2,7 +2,7 @@
     <div class="container mx-auto p-4 relative" >
       <div class="flex justify-between items-center">
         <NuxtLink to="/" class="title text-3xl font-bold">
-          <img src="../assets/images/singularity-logo.png" class="w-24" alt="" />
+          <img src="../assets/images/singularity-logo.png" class="w-24" alt="" />  
         </NuxtLink>
         <div>
           <!-- <h1 class="text-3xl font-semibold text-sky-600">My<span class="text-red-500">Kards</span></h1> -->
