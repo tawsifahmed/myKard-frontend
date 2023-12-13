@@ -36,10 +36,14 @@
   </template>
   
   <script setup>
+
+  const showUserDropdown = ref(false)
   const isDropdownOpen = ref(false);
   
   const toggleDropdown = () => {
-    isDropdownOpen.value = !isDropdownOpen.value;
+    if(showUserDropdown.value){
+      isDropdownOpen.value = !isDropdownOpen.value;
+    }
   };
   
   </script>

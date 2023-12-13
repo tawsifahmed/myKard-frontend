@@ -12,7 +12,7 @@
 <script setup>
 const url = useRuntimeConfig()
 const myKards = ref(null)
-const showRegisterComp = ref(false)
+const showRegisterComp = ref(true)
 
 const getMyCards = async () => {
  const { data } = await useFetch(`${url.public.apiUrl}/my-Kards`, {
