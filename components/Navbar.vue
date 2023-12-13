@@ -5,7 +5,7 @@
           <img src="../assets/images/singularity-logo.png" class="w-24" alt="" />
         </NuxtLink>
         <div>
-          <h1 class="text-slate-700 text-3xl font-semibold text-sky-500">My<span class="text-red-500">Kards</span></h1>
+          <!-- <h1 class="text-3xl font-semibold text-sky-600">My<span class="text-red-500">Kards</span></h1> -->
         </div>
         <div class="" >
           <div @click="toggleDropdown" class="flex items-center gap-2 hover:text-sky-500 cursor-pointer">

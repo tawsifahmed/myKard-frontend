@@ -4,7 +4,7 @@
                 <Navbar/>
             </header>
             <div class="bg-sky-50 mx-auto container mt-[91px]">
-                <NuxtPage class=""/>
+                <NuxtPage class="h-screen min-h-screen max-h-auto"/>
             </div>
       </div>
 </template>
