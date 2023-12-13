@@ -1,6 +1,6 @@
 <template>
     <div>
-       Piliz Login
+
     </div>
 </template>
 

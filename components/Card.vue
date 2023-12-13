@@ -4,7 +4,7 @@
             <h1 class="link-title">{{title}}</h1>
         </div>
         <div class="w-1/2 mx-auto flex justify-center">
-           <QrCodeGenerator class="w-40 h-40" :title="title"/> 
+           <QrCodeGenerator class="w-40 h-40" :title="`http://localhost:3000/profiles/${title}`"/> 
         </div>
         
     </div>
